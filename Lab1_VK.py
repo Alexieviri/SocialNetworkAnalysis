@@ -83,7 +83,7 @@ def get_info_in_csv(member_list, vk_api, output_file_name='result.csv', fields=_
 
 if __name__ == '__main__':
     group_id = 57078572
-    token = 'f7dfb982171944eff70b9c6e10c8309a89fb5e1e347dd0496d0addf2092a9ece248fc92f8f95d7facbfb7'
+    token = 'f7dfb982171944**e248fc92f8f95d7facbfb7' #your token
 
     session = vk.Session(access_token=token)
     vk_api = vk.API(session)
